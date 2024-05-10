@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\styles",
+    "\\week01",
+    "\\week01\\images",
+    "\\week01\\styles"
   ],
+  "SelectedNode": "\\styles\\base.css",
   "PreviewInSolutionExplorer": false
 }

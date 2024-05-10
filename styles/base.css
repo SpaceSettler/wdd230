@@ -11,6 +11,7 @@
 header {
     background-color: brown;
     color: white;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     padding: 30px;
@@ -39,6 +40,7 @@ h2 {
 }
 
 footer {
+    margin-top: 12px;
     display: grid;
     background-color: mediumpurple;
 }
@@ -63,6 +65,7 @@ li {
 
 nav a:hover {
     background-color: black;
+    color: white;
 }
 
 
