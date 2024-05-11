@@ -1,4 +1,4 @@
-.im-fell-double-pica-sc-regular {
+﻿.im-fell-double-pica-sc-regular {
     font-family: "IM Fell Double Pica SC", serif;
     font-weight: 400;
     font-style: normal;
@@ -20,6 +20,8 @@ h1 {
     text-align: center;
 }
 
+
+
 img {
     height: 100px;
     width: 100px;
@@ -27,6 +29,24 @@ img {
 
 #sections {
     max-width: 900px;
+}
+
+nav {
+    display: none;
+    background-color: darkgray;
+}
+
+#menu {
+    background: none;
+    border: none;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
 }
 
 .card {
@@ -45,8 +65,7 @@ footer {
     background-color: mediumpurple;
 }
 
-nav {
-    background-color: darkgray;
+nav.open {
     display: grid;
 }
 

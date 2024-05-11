@@ -19,12 +19,13 @@
     <meta property="og:image" content="https://spacesettler.github.io/wdd230/images/social.png">
 </head>
 <body>
-        <header>
-            <img src="images/profile.png" alt="Profile Image">
-            <span>J Richardson</span>
-            <button id="menu"></button>
-        </header>
-    <nav>
+    <header>
+        <img src="images/profile.png" alt="Profile Image">
+        <span>J Richardson</span>
+        <button id="dMode">Night</button>
+    </header>
+    <button id="menu"></button>
+    <nav id="navigation">
         <a href="index.html">Home</a>
         <a href="index.html">Chamber</a>
         <a href="index.html">Site Plan</a>
@@ -56,5 +57,7 @@
     </main>
     <footer><p>&copy;<span id="copy"></span> | <span id="year"></span> | J | Utah</p><p id="lastModified"></p></footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamButton.js"></script>
+    <script src="scripts/dMode.js"></script>
 </body>
 </html>
