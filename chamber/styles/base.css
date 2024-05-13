@@ -1,0 +1,78 @@
+﻿* {
+    margin: auto;
+    background-color: black;
+    font-family: "IM Fell Double Pica SC";
+    color: crimson;
+    max-width: 960px;
+}
+
+.im-fell-double-pica-sc-regular {
+    font-family: "IM Fell Double Pica SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+}
+
+#menu {
+    font-size: 42px;
+    font-family: monospace;
+    border: none;
+}
+
+#menu:hover{
+    cursor: pointer;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+nav {
+    display: none;
+}
+
+nav a {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav.open {
+    display: grid;
+}
+
+nav a:hover {
+    color: white;
+}
+
+#hero {
+    position: relative;
+}
+
+#hero img {
+    width:640px;
+    height: 250px;
+}
+
+#hero a {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    border: crimson solid;
+    font-size: x-large;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    }

@@ -1,11 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\images",
+    "\\scripts",
     "\\styles",
-    "\\week01",
     "\\week01\\images",
-    "\\week01\\styles"
+    "\\week01\\styles",
+    "\\week02",
+    "\\week02\\scripts",
+    "\\week02\\styles"
   ],
-  "SelectedNode": "\\styles\\base.css",
+  "SelectedNode": "\\scripts\\dMode.js",
   "PreviewInSolutionExplorer": false
 }
