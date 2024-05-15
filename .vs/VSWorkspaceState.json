@@ -1,15 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\images",
+    "\\chamber",
+    "\\chamber\\images",
+    "\\chamber\\scripts",
+    "\\chamber\\styles",
     "\\scripts",
     "\\styles",
-    "\\week01\\images",
-    "\\week01\\styles",
-    "\\week02",
-    "\\week02\\scripts",
-    "\\week02\\styles"
+    "\\week02\\styles",
+    "\\week03",
+    "\\week03\\images"
   ],
-  "SelectedNode": "\\scripts\\dMode.js",
+  "SelectedNode": "\\week03\\images\\landscape1.webp",
   "PreviewInSolutionExplorer": false
 }
