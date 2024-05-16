@@ -26,7 +26,7 @@
         border: crimson dotted;
     }
 
-    #sections {
+    .sections {
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-column-gap: 10px;
@@ -34,5 +34,9 @@
 
     #spotlight {
         grid-row: 1/3;
+    }
+
+    #imgSection img:hover {
+        border: crimson solid;
     }
 }

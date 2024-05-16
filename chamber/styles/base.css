@@ -54,6 +54,10 @@ nav a:hover {
     color: white;
 }
 
+main h1 {
+    text-align: center;
+}
+
 #hero {
     position: relative;
 }
@@ -76,3 +80,14 @@ nav a:hover {
     line-height: 40px;
     text-decoration: none;
     }
+
+#imgSection {
+    display: grid;
+    text-align: center;
+    width: 635px;
+}
+
+#imgSection img {
+    width: 100%;
+    margin-bottom: 30px;
+}
