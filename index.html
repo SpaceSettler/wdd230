@@ -16,11 +16,11 @@
     <meta property="og:title" content="Home Page for WDD230">
     <meta property="og:type" content="website">
     <meta property="og:url" content=" https://spacesettler.github.io/wdd230/index.html">
-    <meta property="og:image" content="https://spacesettler.github.io/wdd230/images/social.png">
+    <meta property="og:image" content="https://spacesettler.github.io/wdd230/images/social.webp">
 </head>
 <body>
     <header>
-        <img src="images/profile.png" alt="Profile Image">
+        <img id="profile" src="images/profile.webp" alt="Profile Image">
         <span>J Richardson</span>
         <button id="dMode">Night</button>
     </header>
@@ -32,6 +32,15 @@
         <a href="index.html">Form</a>
     </nav>
     <main>
+        <div id="hero">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/hero-mobile.webp">
+                <img src="images/hero.webp" alt="Temple">
+            </picture>
+            <div id="image">
+                <p>Temple</p>
+            </div>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <div id="sections">
             <section class="card">
@@ -50,14 +59,16 @@
                 <ul>
                     <li>Utah</li>
                     <li>183F - Heat Death</li>
-                    <li>Page Visits: <span></span></li>
+                    <li>Page Visits: <span id="pCisit"></span></li>
                 </ul>
             </section>
         </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2262266.2677536895!2d-78.95791742659746!3d35.29872670307647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1715829701935!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer><p>&copy;<span id="copy"></span> | <span id="year"></span> | J | Utah</p><p id="lastModified"></p></footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamButton.js"></script>
     <script src="scripts/dMode.js"></script>
+    <script src="scripts/PVcount.js"></script>
 </body>
 </html>
