@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>J - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="J - WDD 230 - Web Frontend Development - Course assignment portal">
+    <meta name="author" content="J">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link href="styles/form.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img id="profile" src="images/profile.webp" alt="Profile Image">
+        <span>J Richardson</span>
+    </header>
+    <button id="menu"></button>
+    <nav id="navigation">
+        <a href="index.html">Home</a>
+        <a href="index.html">Chamber</a>
+        <a href="index.html">Site Plan</a>
+        <a href="index.html">Form</a>
+    </nav>
+    <main>
+        <form action="record.html" method="get">
+            <fieldset>
+                <legend>User Info</legend>
+                <label>User Name*<input type="text" id="username" name="username" required></label>
+                <label>Password*<input type="text" id="password" name="password" pattern="[A-Za-z0-9]{8,}" required></label>
+                <label>Confirm Password*<input type="text" id="password1" name="password1" pattern="[A-Za-z0-9]{8,}" required></label>
+                <label>Email*<input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" required></label>
+                <label><input type="range" id="range" name="range" min="0" max="10" step="1" list="rangevalues" oninput="rangeValue.innerText = this.value"></label>
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+                <p id="rangeValue">5</p>
+                <input type="submit" value="Login">
+
+            </fieldset>
+        </form>
+    </main>
+    <footer><p>&copy;<span id="copy"></span> | <span id="year"></span> | J | Utah</p><p id="lastModified"></p></footer>
+    <script src="scripts/validate.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamButton.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+table {
+    position: relative;
+    border-collapse: collapse;
+    font-size: large;
+    text-align:center;
+}
+
+caption {
+    position: absolute;
+    bottom: -30px;
+    font-size: smaller;
+}
+
+thead {
+    font-size: larger;
+    color: white;
+    background: black;
+}
+
+td {
+    border: solid 1px gray;
+}
+
+tbody tr:nth-child(even){
+    background-color: lightgray;
+}
+
+.grey {
+    background-color: dimgray;
+    border: solid 1px black;
+}
