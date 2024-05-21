@@ -1,0 +1,66 @@
+:root {
+    --blue: blue;
+    --red: red;
+    --gray: gray;
+}
+
+fieldset {
+    margin: 2rem 0;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    padding: .5rem 2%;
+    position: relative;
+}
+
+legend {
+    color: var(--blue);
+    padding: 0 .5rem;
+}
+
+label {
+    display: block;
+    padding: 1rem;
+    color: var(--red);
+    font-size: .9rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    background-color: lightgray;
+    display: block;
+    border: 1px solid var(--gray);
+    border-radius: 6px;
+    padding: .75rem;
+    color: var(--gray);
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+
+input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(crimson, darkred);
+    color: white;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px slategray;
+}
+
+input:required {
+    border-right: solid 8px var(--red);
+}
+
+input:required:valid {
+    border-right: solid 8px green;
+}
+
+fieldset p {
+    position: absolute;
+    top: 390px;
+    left: 170px;
+}
