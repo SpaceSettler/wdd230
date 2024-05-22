@@ -16,15 +16,15 @@
     #hero a {
         top: 195px;
         left: 305px;
-        height:60px;
+        height: 60px;
         width: 200px;
         font-size: xx-large;
         line-height: 55px;
     }
 
-    #hero a:hover {
-        border: crimson dotted;
-    }
+        #hero a:hover {
+            border: crimson dotted;
+        }
 
     .sections {
         display: grid;
@@ -39,4 +39,6 @@
     #imgSection img:hover {
         border: crimson solid;
     }
+
+    
 }

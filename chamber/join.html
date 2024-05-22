@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The People of Solace's Chamber of Commerce</title>
+    <meta name="description" content="Solace's Site for the Chamber of Commerce">
+    <meta name="author" content="J">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Home Page for Solace's Chamber Site'">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content=" https://spacesettler.github.io/wdd230/chamber/index.html">
+    <meta property="og:image" content="https://spacesettler.github.io/wdd230/chamber/images/social.png">
+</head>
+<body>
+    <header>
+        <h1>Chamber of Commerce: Solace</h1>
+        <button id="menu"></button>
+    </header>
+    <nav id="navigation">
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+    </nav>
+    <main>
+        <div class="sections">
+            <div id="memberships">
+                <h2>Membership Level</h2>
+                <span id="np">Price: $0.00   Benefits: </span>
+                <span id="bronze">Price: $5.00   Benefits: </span>
+                <span id="silve">Price: $15.00   Benefits: </span>
+                <span id="gold">Price: $400.00   Benefits: </span>
+                These membership levels have increasing costs as well as increased benefits per level. Benefits might include special events, training, advertising
+                (like spotlight positions on the home page), event discounts, etc.
+            </div>
+            <form action="thankyou.html" method="get">
+                <fieldset>
+                    <Legend>Join Us!</Legend>
+                    <label>First Name:<input type="text" name="fname" id="fname" required></label>
+                    <label>Last Name:<input type="text" name="lname" id="lname" required></label>
+                    <label>Position:<input type="text" name="position" id="position" pattern="[a-zA-Z .\-]{7,}" required></label>
+                    <label>Email:<input type="email" name="email" id="email" required placeholder="123@gmail.com"></label>
+                    <label>Phone:<input type="tel" name="phone" id="phone" required></label>
+                    <label>Name of Business:<input type="text" name="bname" id="bname" required></label>
+                    <label>
+                        Membership type:
+                        <select name="level">
+                            <option value="">Please Select</option>
+                            <option value="np">Non Profit Membership</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+                    <label><textarea name="description" id="description"></textarea></label>
+                    <input type="hidden" name="date" id="date">
+                    <label><input type="submit" value="Become One of Us"></label>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>Contact Info: (801)-912-9432 | J Richardson | WDD 230 | <span id="lastMod"></span></footer>
+    <script src="scripts/hamBut.js"></script>
+    <script src="scripts/lastMod.js"></script>
+    <script src="scripts/betweenDays.js"></script>
+</body>
+</html>
+
+
