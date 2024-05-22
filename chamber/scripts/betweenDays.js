@@ -4,6 +4,8 @@ const lastDay = parseFloat(localStorage.getItem('lastDay')) || 0;
 const daysBetween = Math.round(today / msToDays - lastDay);
 let daysOutput = document.querySelector('#days')
 
+document.querySelector("#date").value = today.
+
 localStorage.setItem('lastDay', (today / msToDays));
 
 if (daysBetween !== 0) {

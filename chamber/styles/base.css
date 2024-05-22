@@ -91,3 +91,29 @@ main h1 {
     width: 100%;
     margin-bottom: 30px;
 }
+
+.end {
+    padding-bottom: 10px;
+}
+
+form {
+    width: 100%
+}
+
+.sections input, .sections select, .sections textarea {
+    display: block;
+    width: 90%;
+    margin: 10px 3% 20px 3%;
+}
+
+input:required {
+    border-right: solid 8px red;
+}
+
+input:required:valid {
+    border-right: solid 8px green;
+}
+
+footer {
+    padding-top: 15px;
+}
