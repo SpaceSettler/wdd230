@@ -52,7 +52,7 @@
         },
         {
           "url": "week03/bom.html",
-          "link": "BoM Chapters Ultra"
+          "titke": "BoM Chapters Ultra"
         }
       ]
     },
@@ -95,23 +95,6 @@
         {
           "url": "week05/weather.html",
           "title": "Weather"
-        }
-      ]
-    },
-    {
-      "week": "Week 6",
-      "links": [
-        {
-          "url":"#",
-          "title":"#"
-        },
-        {
-          "url":"#",
-          "title":"#"
-        },
-        {
-          "url":"#",
-          "title":"#"
         }
       ]
     }
