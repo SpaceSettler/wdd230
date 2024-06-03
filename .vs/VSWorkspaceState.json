@@ -1,16 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\chamber",
-    "\\chamber\\images",
-    "\\chamber\\scripts",
-    "\\chamber\\styles",
-    "\\scripts",
-    "\\styles",
-    "\\week02\\styles",
-    "\\week03",
-    "\\week03\\images"
+    "\\week05",
+    "\\week05\\scripts",
+    "\\week05\\styles"
   ],
-  "SelectedNode": "\\week03\\images\\landscape1.webp",
+  "SelectedNode": "\\week05\\prophets.html",
   "PreviewInSolutionExplorer": false
 }

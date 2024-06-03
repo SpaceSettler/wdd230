@@ -1,0 +1,13 @@
+{
+  "familyName": "Super Hero Squad",
+  "moveDate": "Metro City",
+  "familySize": 2016,
+  "Visited": "Super tower",
+  "members": [
+    {
+      "name": "Molecule Man",
+      "gender": 29,
+      "birthDate": "Dan Jukes"
+    }
+  ]
+}
