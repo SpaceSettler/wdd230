@@ -1,0 +1,60 @@
+﻿{
+  "members": [
+    {
+        "name": "Inn of the Last Home",
+        "address": "North, past the forge, 23rd tree on the right. Solace, Krynn",
+        "phone": "ᛚᚪᛋᛏ ᛈᛚᚪᚳᛖ ᛏᚩ ᛋᛏᚪᚣ",
+        "website": "https://dragonlance.fandom.com/wiki/Inn_of_the_Last_Home",
+        "icon": "https://spacessettler.github.io/wdd230/chamber/images/InnOfTheLastHome.ico",
+        "level": 2
+    },
+    {
+          "name": "Last Heroes' Tomb Memorial Society",
+          "address":,
+          "phone": "ᛈᛖᚪᚳᛖ ᚩᚠ ᛏᚻᛖ ᚾᚩᛒᛚᛖ ᚩᚾᛖᛋ",
+          "website":,
+          "icon":,
+          "level":
+    },
+    {
+          "name": "Academy of Sorcery",
+          "address":,
+          "phone": "ᛗᚪᚷᛁᚳ ᛋᚢᛈᚱᛖᛗᚪᚳᚣ",
+          "website":,
+          "icon":,
+          "level":
+    },
+    {
+          "name": "The Trough Tavern",
+          "address":,
+          "phone": "ᚠᛖᚪᛋᛏ ᛚᛁkᛖ ᛋᚹᛁᚾᛖ",
+          "website":,
+          "icon":,
+          "level":
+    },
+    {
+          "name": "Garrison of the Solamanic Knights",
+          "address":,
+          "phone": "ᛞᛖᚠᛖᚾᛋᛖ ᚩᚠ ᛏᚻᛖ ᛋᚢᚾ",
+          "website":,
+          "icon":,
+          "level":
+    },
+    {
+          "name": "Vallenwood Guards",
+          "address":,
+          "phone": "vᛖᚱᛞᚪᚾᛏ ᛗᛖᚾ",
+          "website":,
+          "icon":,
+          "level":
+    },
+    {
+      "name": "Cult of the Worm",
+      "address":,
+      "phone": "ᛖᛚᛞᛖᚱ ᛞᛖᚪᛏᚻ ᚩᚠ ᛏᚻᛖ ᛞᚱᛖᚪᛗ",
+      "website":,
+      "icon": "https://spacessettler.github.io/wdd230/chamber/images/W̵̶̢̧̠̭̬͇͉̪̮̭̏̾͂̿̋͑̀ͣ̇͗͐͢͟ǒ̪̮̺̰͔̎r̴̷̙̹̮̝̖̿ͤ͐m̴̷̘̺͋͐ͅ.ico",
+      "level": 3
+    }
+  ]
+}
