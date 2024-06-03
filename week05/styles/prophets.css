@@ -1,0 +1,19 @@
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+    background-color: teal;
+    margin: 5px auto;
+    padding: 3px;
+    border: solid crimson 4px;
+}
+
+h2 {
+    color: magenta;
+}
+
+img {
+    border: solid black 2px;
+}
