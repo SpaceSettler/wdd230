@@ -1,11 +1,22 @@
-const url = "https://spacesettler.github.io/wdd230/chamber/data/memeber.json";
-const cards = document.querySelector('#cards');
 async function getProphetData() {
     const response = await fetch(url);
     const data = await response.json();
     //console.table(data.members);
     displayProphets(data.members);
 }
+function showList() {
+    cards.classList.add("list");
+    cards.classList.remove("grid");
+}
+function hideList() {
+    cards.classList.add("grid");
+    cards.classList.remove("list");
+}
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const url = "https://spacesettler.github.io/wdd230/chamber/data/memeber.json";
+const cards = document.querySelector('#cards');
 const displayProphets = (prophets) => {
     prophets.forEach((prophet) => {
         let card = document.createElement('section');
@@ -17,13 +28,13 @@ const displayProphets = (prophets) => {
 
         fullName.textContent = prophet.name;
         address.textContent = prophet.address;
-        phone.textContent = `Place of Birth: ${prophet.phone}`
-        website.textContent = prophet.website;
+        phone.textContent = prophet.phone;
+        website.innerHTML = `<a href="${prophet.website}">${prophet.webName}</a>`;
         portrait.setAttribute('src', prophet.icon);
         portrait.setAttribute('alt', `Portrait for ${prophet.name}`);
         portrait.setAttribute('loading', 'lazy');
-        portrait.setAttribute('width', '150');
-        portrait.setAttribute('height', '150');
+        portrait.setAttribute('width', '200');
+        portrait.setAttribute('height', '200');
 
         card.appendChild(fullName);
         card.appendChild(portrait);
@@ -35,3 +46,5 @@ const displayProphets = (prophets) => {
 }
 
 getProphetData();
+gridbutton.addEventListener("click", hideList);
+listbutton.addEventListener("click", showList);
