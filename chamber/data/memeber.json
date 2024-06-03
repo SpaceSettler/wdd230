@@ -1,58 +1,58 @@
 ﻿{
   "members": [
     {
-        "name": "Inn of the Last Home",
-        "address": "North, past the forge, 23rd tree on the right. Solace, Krynn",
-        "phone": "ᛚᚪᛋᛏ ᛈᛚᚪᚳᛖ ᛏᚩ ᛋᛏᚪᚣ",
-        "website": "https://dragonlance.fandom.com/wiki/Inn_of_the_Last_Home",
-        "icon": "https://spacessettler.github.io/wdd230/chamber/images/InnOfTheLastHome.ico",
-        "level": 2
+      "name": "Inn of the Last Home",
+      "address": "North, past the forge, 23rd tree on the right.",
+      "phone": "ᛚᚪᛋᛏ ᛈᛚᚪᚳᛖ ᛏᚩ ᛋᛏᚪᚣ",
+      "website": "https://dragonlance.fandom.com/wiki/Inn_of_the_Last_Home",
+      "icon": "https://spacessettler.github.io/wdd230/chamber/images/InnOfTheLastHome.ico",
+      "level": 2
     },
     {
-          "name": "Last Heroes' Tomb Memorial Society",
-          "address":,
-          "phone": "ᛈᛖᚪᚳᛖ ᚩᚠ ᛏᚻᛖ ᚾᚩᛒᛚᛖ ᚩᚾᛖᛋ",
-          "website":,
-          "icon":,
-          "level":
+      "name": "Last Heroes Tomb Memorial Society",
+      "address": "1 mile east of Crystalmir Lake.",
+      "phone": "ᛈᛖᚪᚳᛖ ᚩᚠ ᛏᚻᛖ ᚾᚩᛒᛚᛖ ᚩᚾᛖᛋ",
+      "website": "https://dragonlance.fandom.com/wiki/Tomb_of_the_Last_Heroes",
+      "icon": "https://spacesettler.github.io/wdd230/chamber/images/TombOfTheLastHeroes.ico",
+      "level": 0
     },
     {
-          "name": "Academy of Sorcery",
-          "address":,
-          "phone": "ᛗᚪᚷᛁᚳ ᛋᚢᛈᚱᛖᛗᚪᚳᚣ",
-          "website":,
-          "icon":,
-          "level":
+      "name": "Academy of Sorcery",
+      "address": "5 miles North of Solace.",
+      "phone": "ᛗᚪᚷᛁᚳ ᛋᚢᛈᚱᛖᛗᚪᚳᚣ",
+      "website": "https://dragonlance.fandom.com/wiki/Academy_of_Sorcery",
+      "icon": "https://spacesettler.github.io/wdd230/chamber/images/AcademyOfSorcery.ico",
+      "level": 2
     },
     {
-          "name": "The Trough Tavern",
-          "address":,
-          "phone": "ᚠᛖᚪᛋᛏ ᛚᛁkᛖ ᛋᚹᛁᚾᛖ",
-          "website":,
-          "icon":,
-          "level":
+      "name": "The Trough Tavern",
+      "address": "Southernmost end of Solace, off the side road.",
+      "phone": "ᚠᛖᚪᛋᛏ ᛚᛁkᛖ ᛋᚹᛁᚾᛖ",
+      "website": "https://dragonlance.fandom.com/wiki/The_Trough",
+      "icon": "https://spacesettler.github.io/wdd230/chamber/images/TTT.ico",
+      "level": 1
     },
     {
-          "name": "Garrison of the Solamanic Knights",
-          "address":,
-          "phone": "ᛞᛖᚠᛖᚾᛋᛖ ᚩᚠ ᛏᚻᛖ ᛋᚢᚾ",
-          "website":,
-          "icon":,
-          "level":
+      "name": "Garrison of the Solamanic Knights",
+      "address": "Headquarters for Solace located down the road from the Guardhouse.",
+      "phone": "ᛞᛖᚠᛖᚾᛋᛖ ᚩᚠ ᛏᚻᛖ ᛋᚢᚾ",
+      "website": "https://dragonlance.fandom.com/wiki/Knights_of_Solamnia",
+      "icon": "https://spacesettler.github.io/wdd230/chamber/images/KnightsOfSolamania.ico",
+      "level": 0
     },
     {
-          "name": "Vallenwood Guards",
-          "address":,
-          "phone": "vᛖᚱᛞᚪᚾᛏ ᛗᛖᚾ",
-          "website":,
-          "icon":,
-          "level":
+      "name": "Vallenwood Guards",
+      "address": "Right of the main road going North South, middle of town.",
+      "phone": "vᛖᚱᛞᚪᚾᛏ ᛗᛖᚾ",
+      "website": "https://dragonlance.fandom.com/wiki/Solace",
+      "icon": "https://spacesettler.github.io/wdd230/chamber/images/VallenWoodGuards.ico,,
+      "level": 2
     },
     {
       "name": "Cult of the Worm",
-      "address":,
+      "address": "[REDACTED]",
       "phone": "ᛖᛚᛞᛖᚱ ᛞᛖᚪᛏᚻ ᚩᚠ ᛏᚻᛖ ᛞᚱᛖᚪᛗ",
-      "website":,
+      "website": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "icon": "https://spacessettler.github.io/wdd230/chamber/images/W̵̶̢̧̠̭̬͇͉̪̮̭̏̾͂̿̋͑̀ͣ̇͗͐͢͟ǒ̪̮̺̰͔̎r̴̷̙̹̮̝̖̿ͤ͐m̴̷̘̺͋͐ͅ.ico",
       "level": 3
     }
