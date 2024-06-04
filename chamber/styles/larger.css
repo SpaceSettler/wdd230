@@ -22,9 +22,25 @@
         line-height: 55px;
     }
 
-        #hero a:hover {
-            border: crimson dotted;
-        }
+    #hero a:hover {
+        border: crimson dotted;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 5px;
+        align-items: center;
+    }
+
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 1fr;
+        margin: 0;
+        padding: 0.25rem;
+        height: 80px;
+        width: auto;
+    }
 
     .sections {
         display: grid;
