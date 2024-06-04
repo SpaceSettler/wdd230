@@ -20,16 +20,17 @@ const cards = document.querySelector('#cards');
 const displayProphets = (prophets) => {
     prophets.forEach((prophet) => {
         let card = document.createElement('section');
-        let fullName = document.createElement('p');
+        let fullName = document.createElement('span');
         let address = document.createElement('p');
         let phone = document.createElement('p');
-        let website = document.createElement('p');
+        let website = document.createElement('a');
         let portrait = document.createElement('img');
 
         fullName.textContent = prophet.name;
         address.textContent = prophet.address;
         phone.textContent = prophet.phone;
-        website.innerHTML = `<a href="${prophet.website}">${prophet.webName}</a>`;
+        website.innerHTML = `<p id="true">${prophet.webName}</p><p id="false">${prophet.webNameAlt}</p>`;
+        website.setAttribute('href', prophet.website);
         portrait.setAttribute('src', prophet.icon);
         portrait.setAttribute('alt', `Portrait for ${prophet.name}`);
         portrait.setAttribute('loading', 'lazy');

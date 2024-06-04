@@ -1,15 +1,24 @@
 ﻿* {
     margin: auto;
-    background-color: black;
+
     font-family: "IM Fell Double Pica SC";
-    color: crimson;
+
     max-width: 960px;
+}
+
+html, button {
+    color: crimson;
+    background-color: black;
 }
 
 .im-fell-double-pica-sc-regular {
     font-family: "IM Fell Double Pica SC", serif;
     font-weight: 400;
     font-style: normal;
+}
+
+a {
+    color: crimson;
 }
 
 header {
@@ -50,7 +59,7 @@ nav.open {
     display: grid;
 }
 
-nav a:hover {
+nav a:hover, #cards a:hover {
     color: white;
 }
 
@@ -73,7 +82,6 @@ main h1 {
     left: 100px;
     height: 40px;
     width: 150px;
-    background-color: black;
     border: crimson solid;
     font-size: x-large;
     text-align: center;
@@ -96,6 +104,15 @@ main h1 {
     padding-bottom: 10px;
 }
 
+#cards a {
+    text-decoration: none;
+}
+
+#false {
+    display: none;
+}
+ 
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -103,9 +120,47 @@ main h1 {
     align-items: center;
 }
 
+.grid span {
+    display: none;
+}
+
 .list {
     display: flex;
     flex-direction: column;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.list a {
+    color: black;
+}
+
+.list section:nth-child(even) {
+	background-color: orangered;
+    color: black;
+}
+
+.list section:nth-child(odd) {
+	background-color: lightcoral;
+    color: black;
+}
+
+.list > * {
+    display: flex;
+    flex-direction:row
+}
+
+.list > * > * {
+    padding: 0 20px;
+}
+
+.list img {
+    display: none;
 }
 
 form {
