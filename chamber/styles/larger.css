@@ -52,6 +52,14 @@
         grid-row: 1/3;
     }
 
+    #imgSection {
+        width: 635px;
+    }
+
+    #imgSection img{
+        max-width: 630px;
+    }
+
     #imgSection img:hover {
         border: crimson solid;
     }
