@@ -6,7 +6,7 @@ let daysOutput = document.querySelector('#days')
 
 document.querySelector("#date").value = today.
 
-localStorage.setItem('lastDay', (today / msToDays));
+
 
 if (daysBetween !== 0) {
     let amountDays = 'days';
@@ -20,3 +20,5 @@ if (daysBetween !== 0) {
 if (lastDay === 0) {
     daysOutput.textContent = "Welcome! Feel free to look around and see what we're all about"
 } 
+
+localStorage.setItem('lastDay', (today / msToDays));
