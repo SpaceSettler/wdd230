@@ -1,10 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\chamber",
+    "\\chamber\\data",
+    "\\chamber\\scripts",
+    "\\chamber\\styles",
+    "\\data",
+    "\\scripts",
     "\\week05",
-    "\\week05\\scripts",
-    "\\week05\\styles"
+    "\\week05\\scripts"
   ],
-  "SelectedNode": "\\week05\\prophets.html",
+  "SelectedNode": "\\chamber\\data\\memeber.json",
   "PreviewInSolutionExplorer": false
 }

@@ -5,7 +5,7 @@
       "address": "North, past the forge, 23rd tree on the right.",
       "phone": "ᛚᚪᛋᛏ ᛈᛚᚪᚳᛖ ᛏᚩ ᛋᛏᚪᚣ",
       "website": "https://dragonlance.fandom.com/wiki/Inn_of_the_Last_Home",
-      "icon": "https://spacesettler.github.io/wdd230/chamber/images/InnOfTheLastHome.ico",
+      "icon": "https://spacesettler.github.io/wdd230/chamber/images/InnOfTheLastHome.webp",
       "webName": "Last Home Inn",
       "webNameAlt": "Last Home Inn",
       "level": 2
@@ -15,7 +15,7 @@
       "address": "1 mile east of Crystalmir Lake.",
       "phone": "ᛈᛖᚪᚳᛖ ᚩᚠ ᛏᚻᛖ ᚾᚩᛒᛚᛖ ᚩᚾᛖᛋ",
       "website": "https://dragonlance.fandom.com/wiki/Tomb_of_the_Last_Heroes",
-      "icon": "https://spacesettler.github.io/wdd230/chamber/images/TombOfTheLastHeroes.ico",
+      "icon": "https://spacesettler.github.io/wdd230/chamber/images/TombOfTheLastHeroes.webp",
       "webName": "Last Tomb of the Heroes",
       "webNameAlt": "Last Tomb of the Heroes",
       "level": 0
@@ -25,7 +25,7 @@
       "address": "5 miles North of Solace.",
       "phone": "ᛗᚪᚷᛁᚳ ᛋᚢᛈᚱᛖᛗᚪᚳᚣ",
       "website": "https://dragonlance.fandom.com/wiki/Academy_of_Sorcery",
-      "icon": "https://spacesettler.github.io/wdd230/chamber/images/AcademyOfSorcery.ico",
+      "icon": "https://spacesettler.github.io/wdd230/chamber/images/AcademyOfSorcery.webp",
       "webName": "Academy of Sorcery",
       "webNameAlt": "Academy of Sorcery",
       "level": 2
@@ -35,7 +35,7 @@
       "address": "Southernmost end of Solace, off the side road.",
       "phone": "ᚠᛖᚪᛋᛏ ᛚᛁkᛖ ᛋᚹᛁᚾᛖ",
       "website": "https://dragonlance.fandom.com/wiki/The_Trough",
-      "icon": "https://spacesettler.github.io/wdd230/chamber/images/TTT.ico",
+      "icon": "https://spacesettler.github.io/wdd230/chamber/images/TTT.webp",
       "webName": "Den of Theives",
       "webNameAlt": "Den of Theives",
       "level": 1
@@ -45,7 +45,7 @@
       "address": "Headquarters for Solace located down the road from the Guardhouse.",
       "phone": "ᛞᛖᚠᛖᚾᛋᛖ ᚩᚠ ᛏᚻᛖ ᛋᚢᚾ",
       "website": "https://dragonlance.fandom.com/wiki/Knights_of_Solamnia",
-      "icon": "https://spacesettler.github.io/wdd230/chamber/images/KnightsOfSolamania.ico",
+      "icon": "https://spacesettler.github.io/wdd230/chamber/images/KnightsOfSolamania.webp",
       "webName": "Knights of Solamanic",
       "webNameAlt": "Knights of Solamanic",
       "level": 0
@@ -55,7 +55,7 @@
       "address": "Right of the main road going North South, middle of town.",
       "phone": "vᛖᚱᛞᚪᚾᛏ ᛗᛖᚾ",
       "website": "https://dragonlance.fandom.com/wiki/Solace",
-      "icon": "https://spacesettler.github.io/wdd230/chamber/images/VallenWoodGuards.ico",
+      "icon": "https://spacesettler.github.io/wdd230/chamber/images/VallenWoodGuards.webp",
       "webName": "Solace Guards",
       "webNameAlt": "Solace Guards",
       "level": 2
@@ -65,7 +65,7 @@
       "address": "[REDACTED]",
       "phone": "ᛖᛚᛞᛖᚱ ᛞᛖᚪᛏᚻ ᚩᚠ ᛏᚻᛖ ᛞᚱᛖᚪᛗ",
       "website": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "icon": "https://raw.githubusercontent.com/SpaceSettler/wdd230/main/chamber/images/W%CD%A2%CC%B5%CC%8F%CC%BE%CC%A0%CD%82%CC%BF%CC%8B%CD%91%CC%80%CD%A3%CC%AD%CC%AC%CC%A2%CD%87%CC%87%CD%89%CD%97%CC%B6%CC%AA%CD%9F%CC%A7%CC%AE%CD%90%CC%ADo%CC%8C%CC%8E%CC%AA%CC%AE%CC%BA%CC%B0%CD%94r%CC%BF%CC%99%CD%A4%CC%B9%CC%B4%CD%90%CC%B7%CC%AE%CC%9D%CC%96m%CC%B4%CC%B7%CD%85%CC%98%CC%BA%CD%8B%CD%90.ico",
+      "icon": "https://raw.githubusercontent.com/SpaceSettler/wdd230/main/chamber/images/W%CD%A2%CC%B5%CC%8F%CC%BE%CC%A0%CD%82%CC%BF%CC%8B%CD%91%CC%80%CD%A3%CC%AD%CC%AC%CC%A2%CD%87%CC%87%CD%89%CD%97%CC%B6%CC%AA%CD%9F%CC%A7%CC%AE%CD%90%CC%ADo%CC%8C%CC%8E%CC%AA%CC%AE%CC%BA%CC%B0%CD%94r%CC%BF%CC%99%CD%A4%CC%B9%CC%B4%CD%90%CC%B7%CC%AE%CC%9D%CC%96m%CC%B4%CC%B7%CD%85%CC%98%CC%BA%CD%8B%CD%90.webp",
       "webName": "Warning!",
       "webNameAlt": "You have been warned.",
       "level": 3

@@ -73,7 +73,7 @@ main h1 {
 
 #hero img {
     width:640px;
-    height: 250px;
+    height: 237px;
 }
 
 #hero a {
@@ -92,11 +92,13 @@ main h1 {
 #imgSection {
     display: grid;
     text-align: center;
-    width: 635px;
+    width: 350px;
 }
 
 #imgSection img {
+    max-width: 340px;
     width: 100%;
+    height: auto;
     margin-bottom: 30px;
 }
 
