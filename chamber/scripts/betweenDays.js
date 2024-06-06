@@ -2,9 +2,9 @@ const msToDays = 84600000;
 const today = new Date();
 const lastDay = parseFloat(localStorage.getItem('lastDay')) || 0;
 const daysBetween = Math.round(today / msToDays - lastDay);
-let daysOutput = document.querySelector('#days')
+let daysOutput = document.querySelector('#days');
 
-document.querySelector("#date").value = today.
+document.querySelector("#date").value = today;
 
 
 
