@@ -132,6 +132,9 @@ main h1 {
 #weather {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 300px;
+    width: 80%;
+    grid-gap: 10px;
 }
 
 #weather h2 {

@@ -37,6 +37,11 @@
         align-items: center;
     }
 
+    #weather {
+        max-width: 800px;
+        width: 85%;
+    }
+
     .list section {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr 1fr;
