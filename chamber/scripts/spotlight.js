@@ -30,8 +30,8 @@ const displayProphets = (prophets) => {
             portrait.setAttribute('width', '200');
             portrait.setAttribute('height', '200');
 
-            card.appendChild(portrait);
             card.appendChild(fullName);
+            card.appendChild(portrait);
             card.appendChild(address);
             card.appendChild(phone);
             card.appendChild(website);
