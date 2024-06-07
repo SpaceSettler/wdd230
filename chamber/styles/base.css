@@ -92,7 +92,7 @@ main h1 {
 
 #hero img {
     width:640px;
-    height: 237px;
+    height: auto;
 }
 
 #hero a {
