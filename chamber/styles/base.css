@@ -194,6 +194,14 @@ a:hover #false {
     flex-direction: column;
 }
 
+.section {
+    padding: 15px 0 15px;
+}
+
+#cards > * {
+    padding: 10px 0 10px;
+}
+
 .list section {
 	display: grid;
 	padding: 0.25rem;

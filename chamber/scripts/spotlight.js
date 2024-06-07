@@ -13,7 +13,7 @@ const displayProphets = (prophets) => {
     prophets.forEach((prophet) => {
         if (prophet.level > 1) {
             let card = document.createElement('section');
-            let fullName = document.createElement('span');
+            let fullName = document.createElement('p');
             let address = document.createElement('p');
             let phone = document.createElement('p');
             let website = document.createElement('a');
@@ -30,8 +30,8 @@ const displayProphets = (prophets) => {
             portrait.setAttribute('width', '200');
             portrait.setAttribute('height', '200');
 
-            card.appendChild(fullName);
             card.appendChild(portrait);
+            card.appendChild(fullName);
             card.appendChild(address);
             card.appendChild(phone);
             card.appendChild(website);
