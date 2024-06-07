@@ -26,6 +26,10 @@
         border: crimson dotted;
     }
 
+    #banner {
+        font-size: x-large;
+    }
+
     .grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));

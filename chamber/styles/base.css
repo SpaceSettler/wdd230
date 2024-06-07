@@ -21,6 +21,25 @@ a {
     color: crimson;
 }
 
+#banner {
+    position: absolute;
+    top: 20px;
+    background-color: black;
+    max-width: 960px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-size: large;
+}
+
+#banner button {
+    float: right;
+}
+
+#banner.open {
+    display: none
+}
+
 header {
     display: grid;
     grid-template-columns: 9fr 1fr;
@@ -102,6 +121,15 @@ main h1 {
     margin-bottom: 30px;
 }
 
+#weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#weather h2 {
+    grid-column: 1 / 3;
+}
+
 .end {
     padding-bottom: 10px;
 }
@@ -109,6 +137,10 @@ main h1 {
 #gridlist {
     margin: 1rem auto;
     padding: 0.5rem;
+    text-align: center;
+}
+
+#cards {
     text-align: center;
 }
 
